@@ -1,0 +1,35 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+@media only screen and (max-width:800px){
+  .projects{
+    padding: 0px;
+  }
+  
+}
+.projects .projectTitle {
+  text-align: center;
+  color: #3e497a;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+
+}
+@media only screen and (max-width:800px){
+  .projectList{
+   flex-direction: column;
+   width: 70%;
+  }
+  
+}
