@@ -35,4 +35,12 @@ export const ProjectList = [
     des:"Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item offers ",
     git:"https://github.com/bhanuylm75/food-app.git"
   },
+  {
+    name: "Blogging",
+    image: food,
+    skills: "Html,Css,Bootstrap",
+    link:"https://mediumo7.netlify.app/",
+    des:"Developed a responsive Blogging Web Application from scratch using React",
+    git:""
+  },
 ];

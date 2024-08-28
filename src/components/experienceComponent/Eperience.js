@@ -26,25 +26,11 @@ function Experience() {
             Bachelor's Degree
           </h4>
 
-          <p> Computer Science</p>
+          <p> Computer Science and Engineering</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Worked As A Web Development Itern In Full Creative
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-          Tamilnadu Chennai
-          </h4>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2021- present"
+          date="2021- 2022"
           iconStyle= {{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -55,8 +41,39 @@ function Experience() {
             Andhra Pradesh Hyderabad
           </h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+          Enrolled in a comprehensive course covering React, Nodejs ,Expressjs HTML, JavaScript, and Data Structures & Algorithms in Python, focused on building Fullstack applications and strengthening problem-solving skills.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022 (Remote-Paid)"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Web Development Itern In Full Creative
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+          Tamilnadu Chennai
+          </h4>
+          <p>
+          Completed a comprehensive one-month internship focused on hands-on experience in frontend development
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022- present"
+          iconStyle= {{ background: "#3e497a", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Engineer At Bank Of America
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Chennai Tamilnadu
+          </h4>
+          <p>
+          Proactively troubleshoot and resolve complex technical challenges, and bugs of our bank Financial Center application  by meticulously analyzing logs using Splunk, a leading log analysis and monitoring tool. enhancing overall efficiency.  
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

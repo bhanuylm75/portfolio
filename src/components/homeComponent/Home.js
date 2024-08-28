@@ -10,6 +10,7 @@ import css from "../../assets/icons8-css3-48.png"
 import {motion} from "framer-motion"
 import svg from "./svg.svg"
 import Fade from 'react-reveal/Fade';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 
 import "./index.css"
@@ -18,11 +19,12 @@ function Home() {
   return (
     <div className="home">
       <motion.div className="about" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.2}}>
-        <h1> Hi, My Name is  Bhanu</h1>
+        <h1> Hi, My Name is  Bhanu Chandra</h1>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
           <a classNmae="li" href="https://www.linkedin.com/in/bhanu-chandra-danda-122a09193/">  <LinkedInIcon /></a>
          <a classNmae="li" href="mailto:bhanuylm01@gmail.com"> <EmailIcon /></a>
+         <a classNmae="li" href={`tel:${7989846283}`}> <PhoneIcon /></a>
          <motion.a  whileHover={{ scale: 1.2 }} clssNmae="li" target="_blank" href="https://github.com/bhanuylm75" rel="noreferrer"> <GithubIcon /></motion.a>
         </div>
       </motion.div>
